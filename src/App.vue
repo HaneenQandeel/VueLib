@@ -1,17 +1,52 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <calendar></calendar>
+    <SliderComponent></SliderComponent>
+    <Sweetalert></Sweetalert>
+    <VueMask></VueMask>
+    <ToastNotification></ToastNotification>
+    <topProgress></topProgress>
+    <vueTour></vueTour>
+    <VueDropzone></VueDropzone>
+    <VueEditor></VueEditor>
+    <vueFilepond></vueFilepond>
+    <FlagIcon></FlagIcon>
+    <FormWizard></FormWizard>
+    <PictureInput></PictureInput>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import calendar from './components/calendar.vue'
+import SliderComponent from './components/SliderComponent.vue'
+import Sweetalert from './components/Sweetalert.vue'
+import VueMask from './components/VueMask.vue'
+import ToastNotification from './components/ToastNotification.vue'
+import topProgress from './components/topProgress.vue'
+import vueTour from './components/vueTour.vue'
+import VueDropzone from './components/VueDropzone.vue'
+import VueEditor from './components/VueEditor.vue'
+import vueFilepond from './components/vueFilepond.vue'
+import FlagIcon from './components/FlagIcon.vue'
+import FormWizard from './components/FormWizard.vue'
+import PictureInput from './components/PictureInput.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    calendar,
+    SliderComponent,
+    Sweetalert,
+    VueMask,
+    ToastNotification,
+    topProgress,
+    vueTour,
+    VueDropzone,
+    VueEditor,
+    vueFilepond,
+    FlagIcon,
+    FormWizard,
+    PictureInput
   }
 }
 </script>
